@@ -1,1 +1,95 @@
-sss
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://data.press.net/ontology/asset#>.
+@prefix onto: <https://github.com/achsalsa/EXAM_THYP_21-22#> .
+
+<https://github.com/achsalsa/EXAM_THYP_21-22#> a owl:Ontology ;
+    dcterms:title "NEWS ONTO" .
+
+
+
+onto:Auteur a rdfs:Class ;
+    rdfs:label "Journaliste" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Article a rdfs:Class ;
+    rdfs:label "Article" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs mo:Transcription;
+    vs:term_status "experimental" .
+
+onto:Journal a rdfs:Class ;
+    rdfs:label "Journal" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs mo:Transcription;
+    vs:term_status "experimental" .
+
+onto:AnneeExistance a rdf:Property ;
+    rdfs:label "AnneeExistance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Titre a rdf:Property ;
+    rdfs:label "titre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Date_sortie a rdf:Property ;
+    rdfs:label "Date_sortie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Image a rdf:Property ;
+    rdfs:label "Image" ;
+    rdfs:domain o:Resource .
+
+onto:Video a rdf:Property ;
+    rdfs:label "Video" ;
+    rdfs:domain o:Resource .
+
+onto:Audio a rdf:Property ;
+    rdfs:label "Audio" ;
+    rdfs:domain o:Resource .
+
+onto:Texte a rdf:Property;
+    rdfs:label "Texte" ;
+    rdfs:domain o:Resource .
+
+
+onto:Rubrique a rdf:Property ;
+    rdfs:label "rubrique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Age a rdf:Property ;
+    rdfs:label "age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Adresse a rdf:Property ;
+    rdfs:label "Adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Prenom a rdf:Property ;
+    rdfs:label "prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Details a rdf:Property ;
+    rdfs:label "Details" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
