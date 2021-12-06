@@ -13,7 +13,7 @@
 
 
 
-onto:Auteur a rdfs:Class ;
+onto:Journaliste a rdfs:Class ;
     rdfs:label "Journaliste" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
@@ -71,11 +71,6 @@ onto:Rubrique a rdf:Property ;
 
 onto:Age a rdf:Property ;
     rdfs:label "age" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-onto:Adresse a rdf:Property ;
-    rdfs:label "Adresse" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
