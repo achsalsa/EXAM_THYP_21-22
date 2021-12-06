@@ -44,7 +44,7 @@
             }
         });
 
-        function showItems(data){
+        function showfiltreItems(data){
             console.log(data);
             $myelements=$('#elements');
             var list=[];
@@ -62,7 +62,7 @@
             });
         }
 
-        function showItems2(data, themeval){
+        function showSujets(data, themeval){
             console.log(data);
             $myelements=$('#elements');
             $.each( data, function( key, value ) {
@@ -81,7 +81,7 @@
             dataType: 'json', 
             success: function(response) {
                 
-                showItems(response);
+                showfiltreItems(response);
             }
             });
         }
@@ -93,7 +93,7 @@
             dataType: 'json', 
             success: function(response) {
                 
-                showItems2(response, themeval);
+                showSujets(response, themeval);
             }
             });
         }
