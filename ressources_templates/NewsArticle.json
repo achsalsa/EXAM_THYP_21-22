@@ -1,0 +1,99 @@
+{
+    "o:label": "NewsArticle",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Rubrique",
+            "label": "rubrique"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Video",
+            "label": "Video"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Image",
+            "label": "Image"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Audio",
+            "label": "Audio"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Texte",
+            "label": "Texte"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+            "vocabulary_label": "Jounalisme",
+            "local_name": "Date_sortie",
+            "label": "Date_sortie"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/achsalsa\/EXAM_THYP_21-22#",
+        "vocabulary_label": "Jounalisme",
+        "local_name": "Article",
+        "label": "Article"
+    }
+}
